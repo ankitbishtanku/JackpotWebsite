@@ -1,0 +1,89 @@
+.testimonial{text-align: center;
+    min-height: 220px;
+    background: #fff;
+    box-shadow: rgba(0,0,0, 0.3) 0px 5px 15px;
+    padding: 50px 60px;
+    border-radius: 10px;
+    margin: 30px 25px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#testimonial-slider.owl-theme .owl-controls{margin-top:0}
+.testimonial img{margin-bottom: 20px;}
+.testimonial > p {
+    font-size: 19px;
+    color: #020202;
+    font-weight: 500;
+    line-height: 31px;
+}
+.testimonial-review{
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+}
+.testimonial-review > img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+.testimonial-title{
+    text-align: left;
+    padding-top: 15px;
+    line-height: 18px;
+    color:#000;
+    text-transform: capitalize;
+}
+.testimonial-title small{
+    display: block;
+    font-style: italic;
+    margin:10px 0;
+    color:#93a0aa;
+}
+.owl-buttons{
+    position: absolute;
+    top:38%;
+    width: 100%;
+}
+.owl-prev{
+    position: absolute;
+    left:-3%;
+}
+.owl-next{
+    position: absolute;
+    right:-3%;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    background: transparent;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    border-radius: 50%;
+}
+.owl-prev::after,
+.owl-next::after{
+ font-family:"Font Awesome 5 Free"; content: "\f104";font-weight: 900;
+    /*width: 28px;
+    height: 28px;*/
+    font-size: 25px;
+}
+.owl-next::after {
+    content: "\f105";
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background:#fff;
+}
+.owl-carousel:hover .owl-buttons{
+    opacity: 1;
+}
+@media screen and (max-width: 767px){
+    .owl-prev{
+        left:-2.5%;
+    }
+    .owl-next{
+        right: -2.5%;
+    }
+}

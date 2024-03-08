@@ -1,0 +1,140 @@
+@media (max-width: 768px) {
+	.userUpdates {
+		height: 225px;
+	}
+	.signDiv{
+		margin: auto;
+	}
+	.footEnd img {
+    	width: 60%;
+	}
+	#siteImg {
+    	width: 55%;
+	}
+	.lottery-card {
+		width: auto;
+	}
+	.inNews img {
+    	width: 13%;
+	}
+	.download_app img {
+     padding: 0; 
+	}
+	.investors img {
+    	width: 40%;
+    	padding: 15px 15px 30px 25px;
+	}
+}
+@media only screen and (max-width: 590px){
+	.lottery-card{width: 100%;margin-right: 0;margin-bottom: 20px;}
+}
+@media (max-width: 450px){
+	.firstNav a{
+		display: block;
+	}
+	.btn-sign{
+		display: block;
+		width: 40%;
+	}
+	.btn-primary{
+		display: block;
+		width: 40%;
+	}
+	.userUpdates {
+		width: 100%;
+		height: 225px;
+	}
+	.inNews{
+    	height: auto;
+	}
+	.inNews img {
+    	width: 36%;
+    	padding: 0;
+	}
+	.reviews h2{
+		font-size: 17px;
+	}
+	.reviews p{
+		font-size: 14px;
+	}
+	.aboutSite p{
+		font-size: 14px;
+	}
+	.aboutSite h3{
+		font-size: 17px;
+	}
+	.lottery-card button {
+		padding: 7px 43px;
+		font-size: 14px;
+		padding: 3px 20px;
+	}
+	.lottery-card h3,h2{
+		font-size: 15px;
+	}
+	.lottery-card,.aboutApp p{
+		font-size: 14px;
+	}
+	.partners img{
+		width: 9%;
+    	margin: 7px 12px;
+	}
+	.aboutfooter h4 {
+	    font-size: 13px;
+	}
+	.aboutfooter a{
+		font-size: 11px;
+	}
+	.footEnd img {
+    	margin: 20px 0;
+	}
+	.helpline p{
+		font-size: 14px;
+	}
+	.aboutApp{
+		width: 50%;
+	}
+	.aboutApp,.signDiv h5{
+		font-size: 15px;
+	}
+	.aboutFounder{
+		width: 50%;
+	}
+	.investors p{
+		padding: 0;
+	}
+	.investors img{
+		width: 55%;
+	}
+	.userRes{
+		width: 100%;
+	}
+	.signDiv{
+		width: 100%;
+	}
+	.btn-signUp{
+		padding: 0;
+		margin: 10px;
+	}
+	.btn-signIn{
+    	font-size: 16px;
+	}
+	.searchBar input{
+		width: 50%;
+		padding: 7px 34px;
+	}
+	.searchBar i {
+		left: 31%;
+	}
+	.aboutHelp a{
+		width: 49%;
+		font-size: 14px;
+	}
+	.prizeInput{
+		display: block!important;
+	}
+	.aboutForm {
+		width: 100%;
+		padding: 8px 0px;
+	}
+}
+
